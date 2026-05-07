@@ -1,0 +1,26 @@
+{
+  "api_base": "https://api.mai2.link/mai2link/api/v0",
+  "default_token": "默认查卡用token，随便找个账户token扔着就行，机台的也行",
+  "data_dir": "data/maimai_pro",
+  "bindings_file": "player_bindings.json",
+  "whitelist_file": "group_whitelist.json",
+  "blacklist": [
+    "fixSpecialClientPassword",
+    "LogonMachineList"
+  ],
+  "arcades": {
+    "机厅名字": {
+      "name": "机厅名称",
+      "client_id": [
+        "机台加密id"
+      ],
+      "ctl_token": null,
+      "public_key": "机台公钥",
+      "nickname": "机厅别名",
+      "group_whitelist": [
+        "群号1",
+        "群号2"
+      ]
+    }
+  }
+}
